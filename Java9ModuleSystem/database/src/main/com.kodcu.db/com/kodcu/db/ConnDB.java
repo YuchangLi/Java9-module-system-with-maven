@@ -43,6 +43,7 @@ public class ConnDB {
      *
      * @return
      */
+    @SuppressWarnings("exports")
     public Connection getDBConnection() {
 
         if(Objects.isNull(connection)){
@@ -69,7 +70,7 @@ public class ConnDB {
      * @param user
      * @throws SQLException
      */
-    public void insertWithStatement(User user) {
+    public void insertWithStatement(@SuppressWarnings("exports") User user) {
 
         DeleteDbFiles.execute("~", DB_NAME, true);
         Connection conn = getDBConnection();

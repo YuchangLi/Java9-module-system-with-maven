@@ -6,5 +6,9 @@
 **/*.war
 **/*.jar
 **/.DS_Store
+**/.project
+**/.classpath
+**/.factorypath
 mods/
 out/
+.settings/
