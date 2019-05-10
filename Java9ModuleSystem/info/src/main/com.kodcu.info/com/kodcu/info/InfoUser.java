@@ -1,9 +1,10 @@
 package com.kodcu.info;
 
-import com.kodcu.db.ConnDB;
-import com.kodcu.user.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import com.kodcu.db.ConnDB;
+import com.kodcu.user.User;
 
 /*
  * Created by hakdogan on 24/08/2017

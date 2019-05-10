@@ -1,20 +1,18 @@
-package com.kodcu.user;
-
-import com.youseniu.microservice.common.util.StringUtils;
+package com.kodcu.user2;
 
 /*
  * Created by hakdogan on 24/08/2017
  */
-public class User {
+public class User2 {
 
     private String firstName;
     private String lastName;
     private String profession;
     private int age;
 
-    public User(){}
+    public User2(){}
 
-    public User(String firstName, String lastName, String profession, int age) {
+    public User2(String firstName, String lastName, String profession, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.profession = profession;
@@ -51,7 +49,6 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
-        StringUtils.isBlank("");
     }
 
     @Override
